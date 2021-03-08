@@ -53,8 +53,9 @@ int main()
 	}
 	end=clock();
 	printf("PI=%20.14Lf N=%10d\n",pi_new,n);
-	printf("processing time %lf[sec]\n",(double)(end-start)/CLOCKS_PER_SEC);
+	printf("processing times %lf[sec]\n",(double)(end-start)/CLOCKS_PER_SEC);
 }
+
 
 
 
